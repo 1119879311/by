@@ -1,0 +1,8 @@
+node_modules
+packages/**/node_modules
+projects/**/node_modules
+packages/**/dist
+projects/**/dist
+packages/**/package-lock.json
+projects/**/package-lock.json
+package-lock.json

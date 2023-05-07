@@ -1,0 +1,25 @@
+{
+  "name": "koa-nestjs",
+  "version": "1.0.0",
+  "description": "",
+  "private":"true",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "set NODE_ENV=development&&nodemon --watch src -e ts,tsx --exec npx ts-node ./src/index.ts",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cookies": "^0.7.7",
+    "nodemon": "^2.0.22",
+    "ts-node": "^8.4.1"
+  },
+  "dependencies": {
+    "@by/ioc": "workspace:^",
+    "@by/nestjs": "workspace:^",
+    "@by/router": "workspace:^",
+    "cookies": "^0.8.0"
+  }
+}

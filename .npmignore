@@ -1,0 +1,8 @@
+node_modules
+package/**/node_modules
+projects/**/node_modules
+.gitignore
+.vscode
+package-lock.json
+tsconfig.json
+
