@@ -14,5 +14,8 @@
   "dependencies": {
     "@by/ioc": "workspace:^",
     "@by/router": "workspace:^"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
   }
 }
