@@ -8,6 +8,12 @@
     "watch": "npx tsc --watch",
     "build": "npx tsc"
   },
+  "files": [
+    "dist",
+    "README.md",
+    "package.json",
+    "LICENSE"
+  ],
   "keywords": [
     "@bylive/nestjs",
     "koa",
