@@ -1,4 +1,4 @@
-import { IContextOption, IGuard, Pipe } from '@by/router';
+import { IContextOption, IGuard, Pipe } from '@bylive/router';
 
 // 管道：参数的转换，设置默认值，校验
 export class ValidationPip extends Pipe {

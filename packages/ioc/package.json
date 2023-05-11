@@ -1,14 +1,29 @@
 {
-  "name": "@by/ioc",
+  "name": "@bylive/ioc",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "package.json",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx tsc --watch",
     "build": "npx tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "@bylive/ioc",
+    "ioc",
+    "ioc-typescript",
+    "ts-ioc",
+    "ioc-ts",
+    "typescript-ioc",
+    "nestjs",
+    "inversify"
+  ],
   "author": "",
   "license": "ISC",
   "publishConfig": {

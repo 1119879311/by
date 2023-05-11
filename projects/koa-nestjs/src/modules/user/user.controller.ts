@@ -1,4 +1,16 @@
-import { Controller, GET, Query, Ctx, Guard, Pipe, IContextOption, IGuard, Use, setMetadata, Cookie } from '@by/router';
+import {
+  Controller,
+  GET,
+  Query,
+  Ctx,
+  Guard,
+  Pipe,
+  IContextOption,
+  IGuard,
+  Use,
+  setMetadata,
+  Cookie,
+} from '@bylive/router';
 import Koa from 'koa';
 import { UserServer } from './user.serves';
 import * as Cookies from 'cookies';

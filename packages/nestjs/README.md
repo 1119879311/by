@@ -1,11 +1,11 @@
-# @by/nestjs
+# @bylive/nestjs
 
 ### 示例一
 
 ```typescript
-import { Module, Injectable } from '@by/ioc';
-import { Controller, GET, Query } from '@by/router';
-import { KoaNestTs, Logger } from '@by/nestjs';
+import { Module, Injectable } from '@bylive/ioc';
+import { Controller, GET, Query } from '@bylive/router';
+import { KoaNestTs, Logger } from '@bylive/nestjs';
 
 // 服务
 @Injectable()

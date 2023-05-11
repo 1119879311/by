@@ -1,4 +1,4 @@
-import { Module } from '@by/ioc';
+import { Module } from '@bylive/ioc';
 import { UserController } from './user.controller';
 import { UserServer } from './user.serves';
 import { SqlServer } from './usersql.server';

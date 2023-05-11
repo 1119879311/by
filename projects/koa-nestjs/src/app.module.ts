@@ -1,4 +1,4 @@
-import { Module } from '@by/ioc';
+import { Module } from '@bylive/ioc';
 import { UserModule } from './modules/user/user.module';
 @Module({
   imports: [UserModule],

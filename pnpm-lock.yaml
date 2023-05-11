@@ -43,25 +43,25 @@ importers:
 
   packages/nestjs:
     specifiers:
-      '@by/ioc': workspace:^
-      '@by/router': workspace:^
+      '@bylive/ioc': workspace:^1.0.0
+      '@bylive/router': workspace:^1.0.0
     dependencies:
-      '@by/ioc': link:../ioc
-      '@by/router': link:../koa-router-decorator
+      '@bylive/ioc': link:../ioc
+      '@bylive/router': link:../koa-router-decorator
 
   projects/koa-nestjs:
     specifiers:
-      '@by/ioc': workspace:^
-      '@by/nestjs': workspace:^
-      '@by/router': workspace:^
+      '@bylive/ioc': workspace:^1.0.0
+      '@bylive/nestjs': workspace:^1.0.0
+      '@bylive/router': workspace:^1.0.0
       '@types/cookies': ^0.7.7
       cookies: ^0.8.0
       nodemon: ^2.0.22
       ts-node: ^8.4.1
     dependencies:
-      '@by/ioc': link:../../packages/ioc
-      '@by/nestjs': link:../../packages/nestjs
-      '@by/router': link:../../packages/koa-router-decorator
+      '@bylive/ioc': link:../../packages/ioc
+      '@bylive/nestjs': link:../../packages/nestjs
+      '@bylive/router': link:../../packages/koa-router-decorator
       cookies: 0.8.0
     devDependencies:
       '@types/cookies': 0.7.7

@@ -1,4 +1,4 @@
-import { IContextOption, IGuard, Pipe } from '@by/router';
+import { IContextOption, IGuard, Pipe } from '@bylive/router';
 // 守卫,验证用户合法性
 export const authGuards: IGuard = async (option) => {
   const { ctx, get } = option;

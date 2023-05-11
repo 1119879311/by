@@ -1,5 +1,5 @@
 {
-  "name": "@by/nestjs",
+  "name": "@bylive/nestjs",
   "version": "1.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -8,15 +8,20 @@
     "watch": "npx tsc --watch",
     "build": "npx tsc"
   },
-  "keywords": [],
+  "keywords": [
+    "@bylive/nestjs",
+    "koa",
+    "koa-nestjs",
+    "nestjs"
+  ],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@by/ioc": "workspace:^",
-    "@by/router": "workspace:^"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org"
+  },
+  "dependencies": {
+    "@bylive/ioc": "workspace:^1.0.0",
+    "@bylive/router": "workspace:^1.0.0"
   }
 }

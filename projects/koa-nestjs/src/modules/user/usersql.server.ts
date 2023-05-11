@@ -1,4 +1,4 @@
-import { Injectable } from '@by/ioc';
+import { Injectable } from '@bylive/ioc';
 
 @Injectable()
 export class SqlServer {

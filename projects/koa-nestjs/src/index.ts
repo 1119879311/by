@@ -1,4 +1,4 @@
-import { KoaNestTs, Logger } from '@by/nestjs';
+import { KoaNestTs, Logger } from '@bylive/nestjs';
 import { appModule } from './app.module';
 import { setStateMiddleware } from './share/middlewares';
 import { authGuards } from './share/guards';
