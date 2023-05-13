@@ -1,6 +1,6 @@
 {
   "name": "@bylive/nestjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/index.js",
   "scripts": {
@@ -29,5 +29,10 @@
   "dependencies": {
     "@bylive/ioc": "workspace:^1.0.0",
     "@bylive/router": "workspace:^1.0.0"
+  },
+  "peerDependencies": {
+    "koa": ">=2.0.0",
+    "koa-router": ">=7.0.0",
+    "reflect-metadata": ">=0.1.1"
   }
 }
