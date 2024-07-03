@@ -10,7 +10,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watchs": "pnpm run -r watch",
-    "watch:nestjs": "pnpm  --filter @by/nestjs run watch ",
+    "watch:nestjs": "pnpm  --filter @bylive/nestjs run watch",
     "dev:koa-nestjs": "pnpm -filter koa-nestjs run dev"
   },
   "keywords": [],

@@ -4,6 +4,12 @@ import { setStateMiddleware } from './share/middlewares';
 import { authGuards } from './share/guards';
 import { ValidationPip } from './share/pipes';
 
+Logger.setting({
+  info:{write:true}
+})
+
+Logger.info("lslslsl1212")
+
 function start() {
   const app = KoaNestTs.create(appModule, { prefix: '/adminConsole' });
   app.use(setStateMiddleware);

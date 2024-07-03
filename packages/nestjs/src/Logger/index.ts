@@ -15,7 +15,7 @@ interface IlogLever {
   write?: boolean;
 }
 type enumLeve = 'debug' | 'error' | 'info' | 'warn';
-type ILoggerSetting = Record<enumLeve, IlogLever>;
+type ILoggerSetting = Partial<Record<enumLeve, IlogLever>>;
 const leveConfig = () => {
   return { filename: '', write: false };
 };
@@ -52,13 +52,14 @@ export class Logger {
   }
   static write(str: string, levev: enumLeve) {
     try {
-      if (this.config[levev].write) {
-        let loggerDir = this.config[levev] as string;
-        loggerDir = loggerDir
-          ? `${loggerRoot}${loggerDir}`
-          : `${loggerRoot}${levev}-${dateFormat({ patter: 'YYYY-MM-DD' })}.log`;
-        fs.appendFileSync(loggerDir, str + '\n', 'utf8');
+      let leveConf = this.config[levev]
+      if(!leveConf || !leveConf.write){
+        return
       }
+      // 要写入日志
+      let fileName = leveConf.filename;
+      let logFileName = fileName?fileName : `${loggerRoot}${levev}-${dateFormat({ patter: 'YYYY-MM-DD' })}.log`
+      fs.appendFileSync(logFileName, str.substring(5, str.length - 4) + '\n', 'utf8');
     } catch (error) {
       console.error(error);
     }
