@@ -1,6 +1,7 @@
-export type IMethondType = "get" | "post" | "delete" | "put" | "all";
+import type Koa from 'koa';
+export type IMethondType = 'get' | 'post' | 'delete' | 'put' | 'all';
 export type IRouterType = {
-  path: string | RegExp; // "/"
+  path: string; // "/"
   methond: string | IMethondType; //"GET"
   // midwares: Function[],
 };
@@ -16,6 +17,22 @@ export type IControllerMetate = {
 };
 
 export interface Type<T> extends Function {
-  new (...args:any[]):T
+  new (...args: any[]): T;
 }
 
+export type IFactroyParameterOption = {
+  ctx: Koa.DefaultContext;
+  next: Function;
+  paramType: string | Function;
+  instance: object;
+  methodName: string;
+  [key: string]: any;
+};
+export type IContextArg = { value: any[] | any; type: any[] | any };
+
+export type IContextOption = {
+  get: <T>(metaKey: string | symbol, isClass?: boolean) => T | undefined;
+  getArgs: (index?: number) => IContextArg | Array<IContextArg>;
+  ctx: any;
+  next?: Function;
+};

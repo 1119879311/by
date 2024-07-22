@@ -1,5 +1,6 @@
 import { GUARD_META_KEY } from './Constant';
-import { getContextOption, IContextOption } from './Util';
+import { IContextOption } from './Interface';
+import { getContextOption } from './Util';
 
 export function Guard(...middlewares: Array<IGuard>): Function;
 export function Guard(...middlewares: Array<IGuard>): Function {
@@ -18,15 +19,16 @@ export function getGuard(instance: Object, methodName: string) {
 
 export type IGuard = (option: IContextOption) => boolean | Promise<boolean>;
 
-export type IGuardParams = Parameters<IGuard>[0];
+export type IGuardParams = Parameters<IGuard>[number];
 export function GuardTranformsMiddleWare(
   instance: Object,
-  methodName?: string,
+  methodName: string,
   ...middlewares: Array<IGuard>
 ): Array<Function> {
   return middlewares.map((itme: IGuard) => {
     return async (ctx: any, next: Function) => {
       let res = await itme(getContextOption(ctx, next, instance, methodName));
+
       if (res === false) {
         throw new Error('Intercept the guard');
       }

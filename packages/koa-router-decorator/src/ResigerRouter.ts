@@ -2,9 +2,9 @@ import { getControllerMeta } from './Controller.Decorator';
 import { getGuard, GuardTranformsMiddleWare, IGuard } from './Guard.Decorator';
 import { IControllerMetate } from './Interface';
 import { getMiddleware } from './Use.Decorator';
-import path from 'path';
-import { getMothodParameter } from './Parameter.Decorator';
+
 import { Pipe, pipTranfromMiddleWare } from './Pipe';
+import { combineRouterPath, getArgs } from './Util';
 
 type IResigerRouterOption = {
   midwares?: Array<Function>;
@@ -61,18 +61,11 @@ export function ResigerRouter(
     let pips = [...pipTranfromMiddleWare(controllerInstance, key, ...globalPipes)];
 
     let routerMeat = routers[key];
-    let pathname;
-    if (routerMeat.path instanceof RegExp) {
-      pathname = routerMeat.path;
-    } else if (typeof routerMeat.path !== 'object') {
-      pathname = path.join('/', prefix || '', routerMeat.path || '').replace(/\\+/g, '/') || '/';
-    }
+    let pathname = combineRouterPath(routerMeat.path, prefix);
 
-    //方法参数
-    let parameterMeta = getMothodParameter(controllerInstance, key) || [];
     let actionFn = async (ctx: any, next: Function) => {
-      let args = parameterMeta.map((item: Function) => item(ctx, next, controllerInstance, key));
-      const resBody = await (controllerInstance as any)[key].call(controllerInstance, ...args);
+      let { value } = getArgs(ctx, next, controllerInstance, key);
+      const resBody = await (controllerInstance as any)[key].call(controllerInstance, ...value);
       if (resBody !== undefined) ctx.body = await resBody;
       await next();
     };
