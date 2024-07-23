@@ -1,50 +1,41 @@
-import { isObject, isString } from "../util"
-import {HttpStatus} from "./http-status"
+import { isObject, isString } from '../util';
+import { HttpStatus } from './http-status';
 // type It = Record<string,any>
-export class HttpExceptions extends Error{
-    constructor(
-        private readonly response:string|Record<string,any>,
-        private  statusCode:number
 
-    ){
-        super()
-        this.init()
-    }
-    /**
-     * name
-     */
-    
-    public init() {
-        if(isString(this.response)){
-            this.message = this.response
-        }else if(isObject(this.response)&& isString((this.response as Record<string,any>).message)){
-            this.message = (this.response as Record<string, any>).message;
-        }else{
-            this.message="Server Exception"
-            this.statusCode = HttpStatus.INTERNAL_SERVER_ERROR
-        }
+interface IHttpExceptionOption {
+  message: string;
+  statusCode: number | HttpStatus;
+}
+export class HttpExceptions extends Error {
+  constructor(private readonly response: string | IHttpExceptionOption, private statusCode: number | HttpStatus) {
+    super();
+    this.init();
+  }
+  /**
+   * name
+   */
 
+  public init() {
+    if (isObject(this.response)) {
+      this.message = this.response.message;
+      this.statusCode = this.response.statusCode;
+    } else {
+      this.message = isString(this.response) ? this.response : 'Internal Server Error';
     }
-    /**
-     * name
-     */
-    public getResponse() {
-        this.response;
+    if (this.statusCode == undefined) {
+      this.statusCode = HttpStatus.INTERNAL_SERVER_ERROR;
     }
-    /**
-     * name
-     */
-    public getStatus() {
-        return this.statusCode
-    }
-
-    /**
-     * 创建错误信息
-     */
-    public static createBody(
-        message:string,
-        statusCode:number,
-    ) {
-        return { message,statusCode}
-    }
+  }
+  /**
+   * name
+   */
+  public getResponse() {
+    this.response;
+  }
+  /**
+   * name
+   */
+  public getStatus() {
+    return this.statusCode;
+  }
 }
