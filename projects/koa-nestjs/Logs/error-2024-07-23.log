@@ -1,0 +1,330 @@
+[2024/7/23 22:29:40] [error]: Error: 管道 Validation-apply: 参数有误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:7:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:35:55] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:36:15] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:36:17] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:36:24] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:36:25] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:36:25] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:36:25] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:36:25] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:37:16] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:37:43] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:49:57] [error]: TypeError: Cannot read properties of undefined (reading 'SERVICE_UNAVAILABLE')
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:49)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:50:28] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:50:45] [error]: TypeError: Cannot read properties of undefined (reading 'SERVICE_UNAVAILABLE')
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:62)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:51:28] [error]: TypeError: Cannot read properties of undefined (reading 'OK')
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:62)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:51:38] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:00] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:02] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:13] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:15] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:16] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:16] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:16] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:21] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:22] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:9:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:37] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:37] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:38] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:53:38] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
+[2024/7/23 22:55:39] [error]: Error: 管道错误
+    at ValidationPip.apply (D:\workingSpace\webproject\by\projects\koa-nestjs\src\share\pipes\validation.ts:8:11)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:21:24
+    at Generator.next (<anonymous>)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:4:12)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Pipe.js:19:31
+    at dispatch (D:\workingSpace\webproject\by\node_modules\.pnpm\koa-compose@4.1.0\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\by\packages\koa-router-decorator\dist\Guard.Decorator.js:36:19
+    at Generator.next (<anonymous>)
